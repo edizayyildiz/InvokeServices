@@ -54,6 +54,7 @@
                         <li><a runat="server" href="~/">Ana sayfa</a></li>
                         <li><a runat="server" href="~/About">Hakkında</a></li>
                         <li><a runat="server" href="~/Contact">İletişim</a></li>
+                        <li><a runat="server" href="~/CallService">Servis Çağır</a></li>
                     </ul>
                 </div>
             </div>
