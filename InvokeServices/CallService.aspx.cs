@@ -35,6 +35,7 @@ namespace InvokeServices
                 txtWCFTitle.Text = "Yanlış değer girdiniz";
                 txtWCFDescription.Text = "Yanlış değer girdiniz";
             }
+            postWcfService.Close();
         }
 
         protected void Button2_Click(object sender, EventArgs e)
@@ -58,7 +59,7 @@ namespace InvokeServices
                 txtXMLTitle.Text = "Yanlış değer girdiniz";
                 txtXMLDescription.Text = "Yanlış değer girdiniz";
             }
-
+            postXmlService.Close();
         }
     }
 }
